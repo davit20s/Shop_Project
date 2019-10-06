@@ -12,19 +12,6 @@
     </Appenders>
 
 
-
-    <!--&lt;!&ndash; Rolling File Appender &ndash;&gt;-->
-    <!--<RollingFile name="FileAppender" fileName="C:/logs/log4j2-demo.log"-->
-                 <!--filePattern="c:/logs/log4j2-demo-%d{yyyy-MM-dd}-%i.log">-->
-        <!--<PatternLayout>-->
-            <!--<Pattern>${LOG_PATTERN}</Pattern>-->
-        <!--</PatternLayout>-->
-        <!--<Policies>-->
-            <!--<SizeBasedTriggeringPolicy size="10MB" />-->
-        <!--</Policies>-->
-        <!--<DefaultRolloverStrategy max="10"/>-->
-    <!--</RollingFile>-->
-
     <Loggers>
         <!-- Root Logger -->
         <Root level="info">

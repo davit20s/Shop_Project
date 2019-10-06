@@ -15,8 +15,6 @@
         <version>2.1.6.RELEASE</version>
     </parent>
 
-
-
     <name>customer</name>
     <url>http://maven.apache.org</url>
 
